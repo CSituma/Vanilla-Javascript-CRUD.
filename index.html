@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <title>T0 DO</title>
+</head>
+<body>
+   <div class="container">
+     <div class="paper">
+       <div class="title">
+         <h2>TO-DO LIST</h2>
+         <form id = form >
+           <input type = "text" placeholder="type to add" id="newitem">
+           <input type = "submit" Value="+" id="addbutton">
+         </form>
+        </div>
+
+         <div>
+           <ul id="itemlist">
+             <li class="list"><input type="checkbox"class="checkbox"/><h2 class="text">Smile</h2> <button class="deletebtn"><i class="fa fa-trash-o"></i></button></li>
+           </ul>
+         </div>
+     </div>
+    <div class="pin"></div>
+    <div class="block"></div>
+   </div>
+   <script src="todo.js"></script>
+ </body>
+ </html>

@@ -1,2 +1,2 @@
-
-I had so much fun creating this.
+This application allows the user to create a list of items, 
+check them off the list upon completion, or delete them.

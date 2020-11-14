@@ -29,7 +29,6 @@ h2.className="text";
 
 h2.innerHTML=`${newItem}`;
  
- var newItem = '';
 
 li.appendChild(h2);
    
@@ -62,6 +61,19 @@ itemList.appendChild(li);
 li.insertBefore(checkBtn,h2,deleteBtn);
 
 }
+
+function clear() 
+{
+ var newItem = document.getElementById("newitem").value;
+ 
+ setTimeout(() => {
+  newItem = '';
+}, 3000);
+
+}
+
+
+
 ////delete item
 function deleteItem(e){
 

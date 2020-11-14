@@ -17,7 +17,6 @@ e.preventDefault();
 //get input value
 var newItem = document.getElementById("newitem").value;
  
-
 //create element
 let li = document.createElement('li');
 ///add ClassName
@@ -32,7 +31,7 @@ h2.innerHTML=`${newItem}`;
 
 li.appendChild(h2);
    
-    
+ newItem = '';
 
 ////////
 ////checkbox///
@@ -59,9 +58,6 @@ li.appendChild(deleteBtn);
 itemList.appendChild(li);
 
 li.insertBefore(checkBtn,h2,deleteBtn);
-
-var form = document.getElementById("newitem");
- form = '';
 
 }
 ////delete item

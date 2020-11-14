@@ -16,6 +16,7 @@ e.preventDefault();
 //create list element
 //get input value
 var newItem = document.getElementById("newitem").value;
+ 
 
 //create element
 let li = document.createElement('li');
@@ -59,8 +60,8 @@ itemList.appendChild(li);
 
 li.insertBefore(checkBtn,h2,deleteBtn);
 
-var form= document.getElementById('form');
-   form = '';
+var form = document.getElementById("newitem");
+ form = '';
 
 }
 ////delete item

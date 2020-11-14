@@ -31,6 +31,11 @@ h2.className="text";
 h2.innerHTML=`${newItem}`;
 
 li.appendChild(h2);
+   
+const form= document.getElementById('form');
+
+ form = "";
+    
 
 ////////
 ////checkbox///

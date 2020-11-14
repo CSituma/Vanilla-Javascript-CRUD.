@@ -10,7 +10,6 @@ form.addEventListener('submit', addItem);
 itemList.addEventListener('click', deleteItem);
 
 
-
 function addItem(e){
 e.preventDefault();
 
@@ -32,9 +31,6 @@ h2.innerHTML=`${newItem}`;
 
 li.appendChild(h2);
    
-const form= document.getElementById('form');
-
- form = "";
     
 
 ////////
@@ -63,6 +59,8 @@ itemList.appendChild(li);
 
 li.insertBefore(checkBtn,h2,deleteBtn);
 
+var form= document.getElementById('form');
+   form = '';
 
 }
 ////delete item

@@ -67,7 +67,7 @@ function clear()
  var newItem = document.getElementById("newitem").value;
  
  setTimeout(() => {
-  newItem = '';
+  var newItem = '';
 }, 3000);
 
 }

@@ -59,19 +59,12 @@ li.appendChild(deleteBtn);
 itemList.appendChild(li);
 
 li.insertBefore(checkBtn,h2,deleteBtn);
-
-}
-
-function clear() 
-{
- var newItem = document.getElementById("newitem").value;
  
  setTimeout(() => {
   var newItem = '';
 }, 3000);
 
 }
-
 
 
 ////delete item

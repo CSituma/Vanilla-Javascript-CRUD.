@@ -28,10 +28,12 @@ var h2 = document.createElement('h2');
 h2.className="text";
 
 h2.innerHTML=`${newItem}`;
+ 
+ var newItem = '';
 
 li.appendChild(h2);
    
- newItem = '';
+
 
 ////////
 ////checkbox///
